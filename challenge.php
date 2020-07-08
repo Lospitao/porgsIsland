@@ -41,12 +41,15 @@ include("header.php");
     </div>
 
             <div class="solution_ide column">
+                <?php
+                include("codeeditor.php");
+                ?>
 
-                </div>
+            </div>
 
-                <div class="sample_tests column">
+            <div class="sample_tests column">
 
-                </div>
+            </div>
             
 
                 <!--JavaScript at end of body for optimized loading-->
