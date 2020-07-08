@@ -17,9 +17,8 @@ include("header.php");
                 <a class="nav-link" href="#output_div" aria-controls="output_div" role="tab" data-toggle="tab">Output</a>
             </li>
         </ul>
-
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane fade in active" id="challenge_div">
+            <div role="tabpanel" class="tab-pane active" id="challenge_div">
                 <p>Write a function called that takes a string of parentheses, and determines if the order
                     of the parentheses is valid. The function should return true if the string is valid, and false
                     if it's invalid.</p>

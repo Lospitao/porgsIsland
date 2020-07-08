@@ -49,33 +49,34 @@ body {
     height: 150px;
 }
 
-.tabs {
-    background-color: transparent;
-}
 
-.tabs .tab {
+.nav-item {
     background-color: #7ed6df;
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
+    border-color: #0D47A1;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
 
 }
-.tabs .tab a{
-    color: #1a237e;
-    box-shadow: 2px 2px 1px #22a6b3 inset;
-}
-
-.tabs .tab a.active {
-    background-color: transparent;
-    color: #1a237e;
-    box-shadow: 2px 2px 1px #22a6b3 inset;
-}
-
-.tabs .tab a:hover{
+.nav-item a{
     color: #1a237e;
 }
 
-.tabs .tab a.active:hover {
-    background-color: transparent;
+.nav-item a.active {
+    background-color: #22a6b3;
+    color: #1a237e;
+}
+
+.nav-item a.active:hover {
+    background-color: #22a6b3;
+    color: #1a237e;
+}
+
+.nav-item a:hover{
+    color: #1a237e;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #22a6b3;
+    border-color: #dee2e6 #dee2e6;
     color: #1a237e;
 }
