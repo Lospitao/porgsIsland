@@ -18,7 +18,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <nav>
     <div class="nav-wrapper">
