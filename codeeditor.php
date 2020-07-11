@@ -23,7 +23,7 @@ if($_SERVER[REQUEST_METHOD] === 'POST' && !empty($_POST['preview-form-comment'])
 <body>
     <form id="preview-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <textarea class="codemirror-textarea" name="preview-form-comment" id="preview-form-comment">
-
+            <?php echo $comment; ?>
         </textarea>
         <br>
         <button class="btn waves-effect waves-light" type="submit" name="action" id="preview-form-submit">Submit
@@ -32,14 +32,7 @@ if($_SERVER[REQUEST_METHOD] === 'POST' && !empty($_POST['preview-form-comment'])
     </form>
     <div id="preview-comment"><?php echo $comment; ?></div>
 
-    <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById('editor'), {
-            mode: "xml",
-            theme: "eclipse",
-            lineNumbers: true,
-            autoCloseTags: true,
-        });
-    </script>
+
 
 </body>
 </html>
