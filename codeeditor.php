@@ -1,4 +1,5 @@
 <?php
+
 //initially
 $comment = null;
 //if form is submitted
