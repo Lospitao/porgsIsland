@@ -2,7 +2,7 @@
 //initially
 $comment = null;
 //if form is submitted
-if($_SERVER[REQUEST_METHOD] === 'POST' && !empty($_POST['preview-form-comment'])) {
+if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['preview-form-comment'])) {
     $comment = $_POST['preview-form-comment'];
 }
 ?>
