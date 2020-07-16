@@ -14,9 +14,7 @@ if (isset($_POST['action'])) {
 }
 ?>
 <form id="preview-form" method="POST" action="challenge.php">
-        <textarea class="codemirror-textarea" name="preview-form-comment" id="preview-form-comment">
-            <?php echo $comment; ?>
-        </textarea>
+        <textarea class="codemirror-textarea" name="preview-form-comment" id="preview-form-comment"><?php echo $_POST['preview-form-comment']; ?></textarea>
     <br>
     <button class="btn waves-effect waves-light" type="submit" name="action" id="preview-form-submit">Submit
         <i class="material-icons right">send</i>

@@ -48,7 +48,9 @@ include("header.php");
             </div>
 
             <div class="sample_tests column">
-                <div id="preview-comment"><?php echo $response; ?></div>
+                <div id="preview-comment"><?php echo $response; ?> because your comment is <?php echo $comment; ?> and
+                the right answer is <?php echo $correct_output; ?>
+                </div>
             </div>
             
 
