@@ -48,7 +48,7 @@ include("header.php");
             </div>
 
             <div class="sample_tests column">
-
+                <div id="preview-comment"><?php echo $response; ?></div>
             </div>
             
 

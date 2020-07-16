@@ -34,16 +34,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['preview-form-comment'
 
  </head>
 <body>
-    <form id="preview-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <textarea class="codemirror-textarea" name="preview-form-comment" id="preview-form-comment">
-            <?php echo $comment; ?>
-        </textarea>
-        <br>
-        <button class="btn waves-effect waves-light" type="submit" name="action" id="preview-form-submit">Submit
-            <i class="material-icons right">send</i>
-        </button>
-    </form>
-    <div id="preview-comment"><?php echo $comment; ?></div>
+<?php
+ include("test.php");
+        ?>
+
 
 
 
